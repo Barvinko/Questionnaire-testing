@@ -1,0 +1,32 @@
+main{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.788);
+    padding: 10px;
+}
+
+html{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px){
+    html{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 280px){
+    html{
+        font-size: 10px;
+    }
+    tr#head{
+        font-size: 1.2rem;
+    }
+}
+
